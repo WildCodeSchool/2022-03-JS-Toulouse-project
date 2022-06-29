@@ -2,12 +2,12 @@ import React from "react";
 import { useForm, Controller } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
+import axios from "axios";
 
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import Header from "../components/Header";
 import "../styles/AddProject.css";
-import axios from "axios";
 
 const schema = yup
   .object({
@@ -27,9 +27,9 @@ function AddProjects() {
     axios
       .post("http://localhost:5000/add-project", data)
       .then((response) => {
-        console.log(response);
+        console.error(response);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => console.error(err));
   };
 
   return (

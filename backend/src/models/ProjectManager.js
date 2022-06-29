@@ -8,7 +8,7 @@ class ProjectManager extends AbstractManager {
     const dateCreated = new Date();
     const dateEnd = new Date();
     const customerId = 1;
-    console.log(dateCreated);
+    console.error(dateCreated);
     const { title, description, methode } = project;
     return this.connection.query(
       `insert into ${ProjectManager.table} (title, description, isFinished, methode, dateCreated, dateEnd, customerId ) values (?,?,?,?,?,?,?)`,
