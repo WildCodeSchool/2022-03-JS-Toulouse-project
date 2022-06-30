@@ -11,7 +11,7 @@ import { Person } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import HeaderLogo from "./HeaderLogo";
 
-function Header() {
+function Header({ title }) {
   const navigate = useNavigate();
   const actions = [
     { icon: <CottageIcon />, name: "DASHBOARD", navigate: "/" },
@@ -24,7 +24,7 @@ function Header() {
   return (
     <div className="header-container">
       <HeaderLogo />
-      <h2 className="header-title">projects</h2>
+      <h2 className="header-title">{title}</h2>
       <div>
         <SpeedDial
           ariaLabel="SpeedDial"
