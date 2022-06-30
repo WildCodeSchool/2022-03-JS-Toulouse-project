@@ -1,5 +1,5 @@
 import React from "react";
-import ROAD from "../assets/ROAD.png";
+import ROAD from "../assets/ROAD_BLUE.png";
 
 function HeaderLogo() {
   return (

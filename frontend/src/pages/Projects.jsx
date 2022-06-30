@@ -11,7 +11,7 @@ import projet4 from "../assets/projet4.jpg";
 
 const projects = [
   {
-    title: "Sed ut perspiciatis unde omnis",
+    title: "Aeronautics Project - 29/06/22",
     description:
       "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
     image: projet1,
@@ -30,7 +30,7 @@ const projects = [
     link: "/project",
   },
   {
-    title: "Sed ut perspiciatis unde omnis",
+    title: "Apside Projects - 19/01/21",
     description:
       "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
     image: projet2,
@@ -52,16 +52,16 @@ const projects = [
     link: "/project",
   },
   {
-    title: "Sed ut perspiciatis unde omnis",
+    title: "eSport Projects - 15/05/22",
     description:
       "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
     image: projet3,
     technologies: [
       {
-        name: "#react",
+        name: "#NextJs",
       },
       {
-        name: "#Node",
+        name: "#AWS",
       },
       {
         name: "#GraphQL",
@@ -74,19 +74,16 @@ const projects = [
     link: "/project",
   },
   {
-    title: "Sed ut perspiciatis unde omnis",
+    title: "Environment Projects - 02/09/21",
     description:
       "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
     image: projet4,
     technologies: [
       {
-        name: "#react",
+        name: "#JavaScript",
       },
       {
-        name: "#Node",
-      },
-      {
-        name: "#GraphQL",
+        name: "#Python",
       },
       {
         name: "...more",
