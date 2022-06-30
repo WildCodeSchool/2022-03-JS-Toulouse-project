@@ -19,11 +19,11 @@ const actions = [
   { icon: <Person />, name: "ACCOUNT" },
 ];
 
-function Header() {
+function Header({ name }) {
   return (
     <div className="header-container">
       <HeaderLogo />
-      <h2 className="header-title">PROJECTS</h2>
+      <h2 className="header-title">{name}</h2>
       <div>
         <SpeedDial
           ariaLabel="SpeedDial"
