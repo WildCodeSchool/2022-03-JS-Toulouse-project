@@ -69,16 +69,22 @@ function Project() {
           </div>
         </div>
       </div>
+      <Divider sx={{ margin: "2rem" }} />
       <div className="messages-container">
-        <Divider />
-
         <img src={jeanPierre} alt="Jean-Pierre" />
-        <TextField sx={{ width: "90%" }} />
-        <img src={theo} alt="Jean-Pierre" />
+        <TextField sx={{ width: "100%" }} />
 
-        <p>Bonjour Coralie, avec plaisir ! Merci pour ta proposition !</p>
-        <img src={coralie} alt="Jean-Pierre" />
-        <p>Bonjour, avez-vous besoin d’aide sur le projet ?</p>
+        <img src={theo} alt="Théo" />
+        <div className="theo-container">
+          <h4>Théo</h4>
+          <p>Bonjour Coralie, avec plaisir ! Merci pour ta proposition !</p>
+        </div>
+
+        <img src={coralie} alt="Coralie" />
+        <div className="coralie-container">
+          <h4>Coralie</h4>
+          <p>Bonjour, avez-vous besoin d’aide sur le projet ?</p>
+        </div>
         <Divider />
       </div>
     </>
