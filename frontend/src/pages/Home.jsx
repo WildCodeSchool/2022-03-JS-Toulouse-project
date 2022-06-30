@@ -8,7 +8,7 @@ import Projects from "../assets/PROJECTS.png";
 import Profil from "../assets/PROFIL.png";
 import Customers from "../assets/CUSTOMERS.png";
 import Logout from "../assets/LOGOUT.png";
-import Logo from "../assets/ROAD.png";
+import Logo from "../assets/ROAD_BLUE.png";
 
 function Home() {
   return (
