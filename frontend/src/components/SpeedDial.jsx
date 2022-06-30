@@ -16,7 +16,11 @@ function SpeedDialComp() {
     { icon: <GroupIcon />, name: "COLLABORATORS", navigate: "/" },
     { icon: <LightbulbIcon />, name: "PROJECTS", navigate: "/projects" },
     { icon: <WorkIcon />, name: "CUSTOMERS", navigate: "/" },
-    { icon: <NewspaperIcon />, name: "PRESS REVIEW", navigate: "/" },
+    {
+      icon: <NewspaperIcon />,
+      name: "PRESS REVIEW",
+      navigate: "/press-review",
+    },
     { icon: <Person />, name: "ACCOUNT", navigate: "/profil" },
   ];
   return (
