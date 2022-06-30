@@ -6,7 +6,7 @@
 .header-title {
   color: var(--main-color);
   margin: 1rem 2rem;
-  border-bottom: 0.5px solid black;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.195);
   padding: 8px;
 }
 

@@ -1,0 +1,119 @@
+.road-img {
+  padding: 1rem;
+  height: 200px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 500px 700px;
+  margin: 0 0 0 40px;
+  column-gap: 40px;
+}
+
+.project-img {
+  padding: 1rem;
+  width: 500px;
+}
+
+.participate-button {
+  border-color: #183550;
+  color: red;
+}
+
+.techno-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 500px;
+  padding-left: 16px;
+}
+
+.techno-container li {
+  background-color: #eeeeee;
+  padding: 0.5rem;
+  border-radius: 20px;
+  width: 100px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.project-info-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+
+.project-info-container {
+  border: 0.5px solid rgba(0, 0, 0, 0.145);
+  width: 700px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+  height: 335px;
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.project-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .speech-bubble-left {
+  position: relative;
+  background: #183550;
+  border-radius: 0.4em;
+  color: white;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.speech-bubble-left:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 17px solid transparent;
+  border-right-color: #183550;
+  border-left: 0;
+  border-bottom: 0;
+  margin-top: -8.5px;
+  margin-left: -16px;
+}
+
+.speech-bubble-right {
+  position: relative;
+  background: #183550;
+  border-radius: 0.4em;
+  color: white;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.speech-bubble-right:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 17px solid transparent;
+  border-left-color: #183550;
+  border-right: 0;
+  border-bottom: 0;
+  margin-top: -8.5px;
+  margin-right: -16px;
+} */
+
+.messages-img {
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+.messages-container {
+  display: flex;
+  flex-direction: column;
+}
