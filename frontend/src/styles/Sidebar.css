@@ -1,0 +1,63 @@
+.sidebar-container {
+  color: white;
+  background-color: var(--accent-color);
+}
+
+.sidebar-title {
+  font-size: 1.4rem;
+  color: var(--main-color);
+  border-bottom: 0.5px solid white;
+  margin: 0 3rem;
+  padding: 8px;
+}
+
+.filter-check-container {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-check-container p {
+  margin: 0;
+  padding: 0;
+}
+
+.text-grayed {
+  color: grey;
+}
+
+.filter-color-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.color-code {
+  display: grid;
+  place-items: center;
+  color: black;
+  height: 50px;
+}
+
+.code-finished {
+  background-color: rgb(156, 93, 45, 0.5);
+}
+
+.code-ongoing {
+  background-color: rgb(96, 67, 232, 0.5);
+}
+
+.code-tostart {
+  background-color: rgb(115, 232, 114, 0.5);
+}
+
+div.MuiBox-root:nth-child(2)
+  > div:nth-child(1)
+  > div:nth-child(2)
+  > label:nth-child(1),
+div.MuiBox-root:nth-child(5)
+  > div:nth-child(1)
+  > div:nth-child(2)
+  > label:nth-child(1) {
+  color: white;
+}
