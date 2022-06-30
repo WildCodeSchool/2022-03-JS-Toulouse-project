@@ -28,7 +28,7 @@ h1 {
     line-height: 58px;
 }
 
-h2 {
+#h2 {
     padding: 10px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.267);
     width: 60%;
