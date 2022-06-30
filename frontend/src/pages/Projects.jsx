@@ -27,6 +27,7 @@ const projects = [
       },
     ],
     status: "finished",
+    link: "/project",
   },
   {
     title: "Sed ut perspiciatis unde omnis",
@@ -48,6 +49,7 @@ const projects = [
       },
     ],
     status: "finished",
+    link: "/project",
   },
   {
     title: "Sed ut perspiciatis unde omnis",
@@ -69,6 +71,7 @@ const projects = [
       },
     ],
     status: "finished",
+    link: "/project",
   },
   {
     title: "Sed ut perspiciatis unde omnis",
@@ -90,6 +93,7 @@ const projects = [
       },
     ],
     status: "finished",
+    link: "/project",
   },
 ];
 
