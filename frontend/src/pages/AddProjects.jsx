@@ -23,6 +23,7 @@ function AddProjects() {
     control,
     formState: { errors, dirtyFields },
   } = useForm({ resolver: yupResolver(schema) });
+
   const onSubmit = (data) => {
     axios
       .post("http://localhost:5000/add-project", data)
