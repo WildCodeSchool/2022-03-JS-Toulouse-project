@@ -41,7 +41,6 @@ function Profil() {
             >
               Contact
             </Button>
-
             <Button
               sx={{ color: "black" }}
               variant="outlined"
@@ -51,7 +50,6 @@ function Profil() {
             >
               Schedule
             </Button>
-
             <Button
               sx={{ color: "black" }}
               variant="outlined"
@@ -70,10 +68,9 @@ function Profil() {
             <div id="card" className="about-container">
               <h2>About me</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-                eaque qui. Voluptate modi, possimus, et maxime ut labore sint
-                ullam molestiae accusantium minus nulla officiis nesciunt
-                facilis, corrupti earum molestias.
+                Hi, it’s John and I like collaborative work. I have ten years of
+                experience in web development, and I am particularly interested
+                in the python language
               </p>
             </div>
             <div className="card-container1">
