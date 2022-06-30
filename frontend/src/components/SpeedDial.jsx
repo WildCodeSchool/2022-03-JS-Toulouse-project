@@ -14,10 +14,10 @@ function SpeedDialComp() {
   const actions = [
     { icon: <CottageIcon />, name: "DASHBOARD", navigate: "/" },
     { icon: <GroupIcon />, name: "COLLABORATORS", navigate: "/" },
-    { icon: <LightbulbIcon />, name: "IDEAS", navigate: "/" },
+    { icon: <LightbulbIcon />, name: "PROJECTS", navigate: "/projects" },
     { icon: <WorkIcon />, name: "CUSTOMERS", navigate: "/" },
     { icon: <NewspaperIcon />, name: "PRESS REVIEW", navigate: "/" },
-    { icon: <Person />, name: "ACCOUNT", navigate: "/" },
+    { icon: <Person />, name: "ACCOUNT", navigate: "/profil" },
   ];
   return (
     <SpeedDial
