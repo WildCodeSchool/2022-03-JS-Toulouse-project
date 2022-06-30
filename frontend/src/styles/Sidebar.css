@@ -2,6 +2,10 @@
   color: white;
   background-color: var(--accent-color);
 }
+.filter-divider {
+  margin: 0px 1rem;
+  color: white;
+}
 
 .sidebar-title {
   font-size: 1.4rem;
@@ -13,8 +17,40 @@
 
 .filter-check-container {
   padding: 8px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+div.filter-check-container:nth-child(4) > div:nth-child(2) label {
+  margin: 0;
+}
+
+div.filter-check-container:nth-child(6) > div:nth-child(2) label {
+  margin: 0;
+}
+
+div.filter-check-container:nth-child(7)
+  > div:nth-child(2)
+  > label:nth-child(1) {
+  margin: 0;
+}
+
+div.filter-check-container:nth-child(6) > div:nth-child(2) > label:nth-child(1),
+div.filter-check-container:nth-child(7)
+  > div:nth-child(2)
+  > label:nth-child(1) {
+  display: grid;
+}
+
+div.filter-check-container:nth-child(6)
+  > div:nth-child(2)
+  > label:nth-child(1)
+  > span:nth-child(1),
+div.filter-check-container:nth-child(7)
+  > div:nth-child(2)
+  > label:nth-child(1)
+  > span:nth-child(1) {
+  justify-self: end;
 }
 
 .filter-check-container p {
@@ -22,33 +58,45 @@
   padding: 0;
 }
 
+.filter-check-text {
+  justify-self: start;
+}
+
 .text-grayed {
   color: grey;
 }
 
 .filter-color-container {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .color-code {
+  margin: 16px;
+  height: 30px;
+  width: 30px;
+}
+
+.centered-color-span {
+  padding: 16px;
   display: grid;
   place-items: center;
-  color: black;
-  height: 50px;
+}
+
+.color-code {
+  border-radius: 50%;
 }
 
 .code-finished {
-  background-color: rgb(156, 93, 45, 0.5);
+  background-color: rgb(156, 93, 45);
 }
 
 .code-ongoing {
-  background-color: rgb(96, 67, 232, 0.5);
+  background-color: rgb(96, 67, 232);
 }
 
 .code-tostart {
-  background-color: rgb(115, 232, 114, 0.5);
+  background-color: rgb(115, 232, 114);
 }
 
 div.MuiBox-root:nth-child(2)
@@ -59,5 +107,20 @@ div.MuiBox-root:nth-child(5)
   > div:nth-child(1)
   > div:nth-child(2)
   > label:nth-child(1) {
+  color: white;
+}
+
+#combo-box-demo-label,
+.MuiOutlinedInput-notchedOutline,
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  color: white;
+}
+
+fieldset,
+combo-box-demo {
+  color: white;
+}
+
+.MuiAutocomplete-inputRoot {
   color: white;
 }

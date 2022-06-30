@@ -16,9 +16,8 @@ function Sidebar() {
     <div className="sidebar-container">
       <h3 className="sidebar-title">FILTERS</h3>
       <InputWithIcon />
-      <hr />
       <div className="filter-check-container">
-        <div>
+        <div className="filter-check-text">
           <p>STATUS :</p>
         </div>
         <FormGroup>
@@ -36,16 +35,27 @@ function Sidebar() {
           />
         </FormGroup>
       </div>
+
       <Autocomplete
         disablePortal
         id="combo-box-demo"
         options={agencies}
-        sx={{ padding: "8px" }}
-        // eslint-disable-next-line react/jsx-props-no-spreading
-        renderInput={(params) => <TextField {...params} label="Movie" />}
+        sx={{ padding: "8px", borderColor: "red.500", color: "white" }}
+        renderInput={(params) => (
+          <TextField
+            sx={{
+              border: "2px solid #e79759",
+              borderRadius: "4px",
+              color: "white",
+            }}
+            // eslint-disable-next-line react/jsx-props-no-spreading
+            {...params}
+            label="Movie"
+          />
+        )}
       />
       <div className="filter-check-container">
-        <div>
+        <div className="filter-check-text">
           <p>TECH STACK :</p>
         </div>
         <FormGroup>
@@ -89,7 +99,7 @@ function Sidebar() {
         </FormGroup>
       </div>
       <div className="filter-check-container">
-        <div>
+        <div className="filter-check-text">
           <p>FAVORITES :</p>
         </div>
         <FormGroup>
@@ -100,7 +110,7 @@ function Sidebar() {
         </FormGroup>
       </div>
       <div className="filter-check-container">
-        <div>
+        <div className="filter-check-text">
           <p>MY STACK :</p>
         </div>
         <FormGroup>
@@ -112,15 +122,20 @@ function Sidebar() {
       </div>
       <h3 className="sidebar-title">COLORS</h3>
       <div className="filter-color-container">
-        <div className="color-code code-finished">
-          <span>FINISHED</span>
+        <div className="centered-color-span">
+          <span className="color-ball">FINISHED</span>
         </div>
-        <div className="color-code code-ongoing">
-          <span>ONGOING</span>
+        <div className="color-code code-finished" />
+
+        <div className="centered-color-span">
+          <span className="color-ball">ONGOING</span>
         </div>
-        <div className="color-code code-tostart">
-          <span>TO START</span>
+        <div className="color-code code-ongoing" />
+
+        <div className="centered-color-span">
+          <span className="color-ball">TO START</span>
         </div>
+        <div className="color-code code-tostart" />
       </div>
     </div>
   );
