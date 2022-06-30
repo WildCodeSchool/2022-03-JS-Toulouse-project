@@ -6,6 +6,7 @@ import "./App.css";
 import Projects from "./pages/Projects";
 import AddProjects from "./pages/AddProjects";
 import Profil from "./pages/Profil";
+import PressReview from "./pages/PressReview";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/add-project" element={<AddProjects />} />
           <Route path="/customers" element={<Home />} />
-          <Route path="/press-review" element={<Home />} />
+          <Route path="/press-review" element={<PressReview />} />
           <Route path="/collaborators" element={<Home />} />
           <Route path="/ideas" element={<Home />} />
           <Route path="/profil" element={<Profil />} />
