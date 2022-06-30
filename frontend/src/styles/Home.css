@@ -28,7 +28,8 @@
   position: absolute;
   transition: 0.2s;
   cursor: pointer;
-  top: 90px;
+  top: 20px;
+  right: 720px;
 }
 
 .ideas:hover {
@@ -37,8 +38,8 @@
 
 .collaborators {
   position: absolute;
-  top: 430px;
-  left: 200px;
+  top: 315px;
+  left: 100px;
   transition: 0.2s;
   cursor: pointer;
 }
@@ -48,8 +49,8 @@
 }
 .projects {
   position: absolute;
-  bottom: 270px;
-  right: 1100px;
+  bottom: 210px;
+  right: 700px;
   transition: 0.2s;
   cursor: pointer;
 }
@@ -60,8 +61,8 @@
 
 .customers {
   position: absolute;
-  right: 1350px;
-  top: 200px;
+  left: 530px;
+  top: 80px;
   transition: 0.2s;
   cursor: pointer;
 }
@@ -72,8 +73,8 @@
 
 .profil {
   position: absolute;
-  right: 440px;
-  top: 155px;
+  right: 200px;
+  top: 40px;
   transition: 0.2s;
   cursor: pointer;
 }
@@ -84,8 +85,8 @@
 
 .pressreview {
   position: absolute;
-  right: 1430px;
-  bottom: 300px;
+  right: 1130px;
+  bottom: 200px;
   transition: 0.2s;
   cursor: pointer;
 }
@@ -96,8 +97,8 @@
 
 .logout {
   position: absolute;
-  right: 330px;
-  bottom: 330px;
+  right: 100px;
+  bottom: 210px;
   transition: 0.2s;
   cursor: pointer;
 }
