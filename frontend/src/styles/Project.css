@@ -60,54 +60,6 @@
   justify-content: space-between;
 }
 
-/* .speech-bubble-left {
-  position: relative;
-  background: #183550;
-  border-radius: 0.4em;
-  color: white;
-  text-align: left;
-  padding: 0.5rem;
-}
-
-.speech-bubble-left:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 0;
-  height: 0;
-  border: 17px solid transparent;
-  border-right-color: #183550;
-  border-left: 0;
-  border-bottom: 0;
-  margin-top: -8.5px;
-  margin-left: -16px;
-}
-
-.speech-bubble-right {
-  position: relative;
-  background: #183550;
-  border-radius: 0.4em;
-  color: white;
-  text-align: left;
-  padding: 0.5rem;
-}
-
-.speech-bubble-right:after {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 50%;
-  width: 0;
-  height: 0;
-  border: 17px solid transparent;
-  border-left-color: #183550;
-  border-right: 0;
-  border-bottom: 0;
-  margin-top: -8.5px;
-  margin-right: -16px;
-} */
-
 .messages-img {
   margin-left: 0;
   margin-right: 1rem;
