@@ -1,19 +1,16 @@
 .top-bar {
-    position: fixed;
-    top: 0;
     width: 100%;
     height: 100px;
     display: flex;
 }
 
 .top-bar>img {
-    height: 80px;
-    width: auto;
+    width: 180px;
+    padding: 1rem;
 }
 
 .profil-container {
     position: relative;
-    top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;

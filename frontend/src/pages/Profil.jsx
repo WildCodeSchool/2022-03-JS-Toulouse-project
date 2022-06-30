@@ -25,9 +25,9 @@ function Profil() {
 
   return (
     <div>
-      <div className="top-bar">
+      <header className="top-bar">
         <img src={logo} alt="logo" />
-      </div>
+      </header>
       <div className="profil-container">
         <img className="img-profil" src={profil} alt="profil" />
         <section className="profil-user">
