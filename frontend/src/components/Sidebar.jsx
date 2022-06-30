@@ -7,6 +7,7 @@ import {
 } from "@mui/material";
 import React from "react";
 import "../styles/Sidebar.css";
+import HeaderLogo from "./HeaderLogo";
 import InputWithIcon from "./SearchInput";
 
 const agencies = ["Toulouse", "Reims"];
@@ -14,6 +15,7 @@ const agencies = ["Toulouse", "Reims"];
 function Sidebar() {
   return (
     <div className="sidebar-container">
+      <HeaderLogo />
       <h3 className="sidebar-title">FILTERS</h3>
       <InputWithIcon />
       <div className="filter-check-container">
