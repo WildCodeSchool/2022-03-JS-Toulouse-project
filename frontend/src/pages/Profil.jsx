@@ -5,13 +5,13 @@ import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined
 import StarOutlineOutlinedIcon from "@mui/icons-material/StarOutlineOutlined";
 import EditIcon from "@mui/icons-material/Edit";
 import IconButton from "@mui/material/IconButton";
-import Header from "../components/Header";
 import "../styles/Profil.css";
 import profil from "../assets/profilPicture.png";
 import js from "../assets/js.png";
 import nodejs from "../assets/nodejs.png";
 import physics from "../assets/physics.png";
 import python from "../assets/python.png";
+import logo from "../assets/ROAD.png";
 
 function Profil() {
   const profilUser = [
@@ -25,7 +25,9 @@ function Profil() {
 
   return (
     <div>
-      <Header name="Profil" />
+      <div className="top-bar">
+        <img src={logo} alt="logo" />
+      </div>
       <div className="profil-container">
         <img className="img-profil" src={profil} alt="profil" />
         <section className="profil-user">
