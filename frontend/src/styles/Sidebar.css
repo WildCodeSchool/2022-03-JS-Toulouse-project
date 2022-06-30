@@ -1,7 +1,11 @@
 .sidebar-container {
   color: white;
   background-color: var(--accent-color);
+  position: fixed;
+  left: 0;
+  top: 0;
 }
+
 .filter-divider {
   margin: 0px 1rem;
   color: white;

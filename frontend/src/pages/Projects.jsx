@@ -99,7 +99,7 @@ const projects = [
 
 function Projects() {
   return (
-    <div>
+    <div className="jsp">
       <Header name="PROJECTS" />
       <section className="main-projects-container">
         <Sidebar />
@@ -109,7 +109,6 @@ function Projects() {
             <ProjectCard {...el} />
           ))}
         </div>
-        <div>Projects</div>
       </section>
       <SpeedDialComp />
     </div>

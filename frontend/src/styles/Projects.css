@@ -1,6 +1,7 @@
 .main-projects-container {
-  display: grid;
-  grid-template-columns: 250px 1fr;
+  position: relative;
+  left: 300px;
+  width: 1600px;
 }
 
 .projects-center-container {

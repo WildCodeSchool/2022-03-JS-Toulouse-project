@@ -1,8 +1,8 @@
 .project-container {
   text-align: left;
   background-color: white;
-  width: 500px;
-  height: 600px;
+  width: 600px;
+  height: 560px;
   box-shadow: 0 0 14px 3px rgba(0, 0, 0, 0.12);
   border-radius: 8px;
   margin: 1rem;
@@ -14,7 +14,7 @@
 }
 
 .project-container img {
-  width: 500px;
+  width: 600px;
   height: 300px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
