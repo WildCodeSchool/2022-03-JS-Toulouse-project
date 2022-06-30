@@ -50,7 +50,7 @@ function Sidebar() {
             }}
             // eslint-disable-next-line react/jsx-props-no-spreading
             {...params}
-            label="Movie"
+            label="Agency"
           />
         )}
       />
