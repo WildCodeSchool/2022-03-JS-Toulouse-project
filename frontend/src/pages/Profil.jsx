@@ -70,7 +70,7 @@ function Profil() {
         <section>
           <div className="card-container-global">
             <div id="card" className="about-container">
-              <h2>About me</h2>
+              <h2 id="h2">About me</h2>
               <p>
                 Hi, it’s John and I like collaborative work. I have ten years of
                 experience in web development, and I am particularly interested
@@ -79,7 +79,7 @@ function Profil() {
             </div>
             <div className="card-container1">
               <div id="card1" className="tech-stack-container">
-                <h2>Tech Stack</h2>
+                <h2 id="h2">Tech Stack</h2>
                 <div className="image-stack">
                   <img src={js} alt="stack" />
                   <img src={physics} alt="" />
@@ -88,7 +88,7 @@ function Profil() {
                 </div>
               </div>
               <div id="card1" className="agency-container">
-                <h2>Agency</h2>
+                <h2 id="h2">Agency</h2>
                 <p
                   style={{
                     color: "#e79759",
