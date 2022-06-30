@@ -6,6 +6,11 @@
     display: flex;
 }
 
+.top-bar>img {
+    height: 80px;
+    width: auto;
+}
+
 .profil-container {
     position: relative;
     top: 150px;
