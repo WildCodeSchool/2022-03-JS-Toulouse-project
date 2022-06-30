@@ -6,6 +6,7 @@ import StarOutlineOutlinedIcon from "@mui/icons-material/StarOutlineOutlined";
 import EditIcon from "@mui/icons-material/Edit";
 import IconButton from "@mui/material/IconButton";
 import "../styles/Profil.css";
+import SpeedDial from "../components/SpeedDial";
 import profil from "../assets/profilPicture.png";
 import js from "../assets/js.png";
 import nodejs from "../assets/nodejs.png";
@@ -27,6 +28,7 @@ function Profil() {
     <div>
       <header className="top-bar">
         <img src={logo} alt="logo" />
+        <SpeedDial />
       </header>
       <div className="profil-container">
         <img className="img-profil" src={profil} alt="profil" />
