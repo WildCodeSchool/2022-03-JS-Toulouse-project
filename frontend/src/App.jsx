@@ -9,7 +9,6 @@ import Profil from "./pages/Profil";
 import Collaborators from "./pages/Collaborators";
 import PressReview from "./pages/PressReview";
 
-
 function App() {
   return (
     <div className="App">
@@ -20,7 +19,6 @@ function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/add-project" element={<AddProjects />} />
           <Route path="/customers" element={<Home />} />
-          <Route path="/press-review" element={<Home />} />
           <Route path="/collaborators" element={<Collaborators />} />
           <Route path="/press-review" element={<PressReview />} />
           <Route path="/collaborators" element={<Home />} />
