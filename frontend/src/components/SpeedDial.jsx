@@ -13,7 +13,7 @@ function SpeedDialComp() {
   const navigate = useNavigate();
   const actions = [
     { icon: <CottageIcon />, name: "DASHBOARD", navigate: "/" },
-    { icon: <GroupIcon />, name: "COLLABORATORS", navigate: "/" },
+    { icon: <GroupIcon />, name: "COLLABORATORS", navigate: "/collaborators" },
     { icon: <LightbulbIcon />, name: "PROJECTS", navigate: "/projects" },
     { icon: <WorkIcon />, name: "CUSTOMERS", navigate: "/" },
     {
