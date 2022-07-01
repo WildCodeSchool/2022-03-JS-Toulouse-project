@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  background-color: #183550;
+}
+
+.background-logo {
+  background-image: url("src/assets/Logo_background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background {
+  background-image: url("src/assets/PATHS.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.paths {
+  display: flex;
+  margin: 0 auto;
+}
+
+.ideas {
+  position: absolute;
+  transition: 0.2s;
+  cursor: pointer;
+  top: 20px;
+  right: 720px;
+}
+
+.ideas:hover {
+  transform: scale(1.2);
+}
+
+.collaborators {
+  position: absolute;
+  top: 315px;
+  left: 100px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.collaborators:hover {
+  transform: scale(1.2);
+}
+.projects {
+  position: absolute;
+  bottom: 210px;
+  right: 700px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.projects:hover {
+  transform: scale(1.2);
+}
+
+.customers {
+  position: absolute;
+  left: 530px;
+  top: 80px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.customers:hover {
+  transform: scale(1.2);
+}
+
+.profil {
+  position: absolute;
+  right: 200px;
+  top: 40px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.profil:hover {
+  transform: scale(1.2);
+}
+
+.pressreview {
+  position: absolute;
+  right: 1130px;
+  bottom: 200px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.pressreview:hover {
+  transform: scale(1.2);
+}
+
+.logout {
+  position: absolute;
+  right: 100px;
+  bottom: 210px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.logout:hover {
+  transform: scale(1.2);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.container {
+  height: calc(100vh / 2);
+  color: white;
+  font-size: 30px;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  margin: 1rem;
+}

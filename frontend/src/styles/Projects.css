@@ -1,0 +1,12 @@
+.main-projects-container {
+  position: relative;
+  left: 300px;
+  width: 1600px;
+}
+
+.projects-center-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 16px 32px;
+  padding: 8px;
+}

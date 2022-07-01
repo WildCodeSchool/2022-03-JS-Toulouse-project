@@ -1,0 +1,20 @@
+.header-container {
+  display: grid;
+  grid-template-columns: 250px 1fr 100px;
+}
+
+.header-title {
+  color: var(--main-color);
+  margin: 1rem 2rem;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.195);
+  padding: 8px;
+}
+
+.logo-img {
+  padding: 1rem;
+  width: 180px;
+}
+
+.logo-container {
+  background-color: var(--accent-color);
+}
