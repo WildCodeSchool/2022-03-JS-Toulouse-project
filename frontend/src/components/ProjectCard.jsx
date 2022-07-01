@@ -14,7 +14,9 @@ function ProjectCard({ title, description, image, technologies, link }) {
         </div>
         <ul className="tech-list">
           {technologies.map((el) => (
-            <li className="tech-pill">{el.name}</li>
+            <li key={el.title} className="tech-pill">
+              {el.name}
+            </li>
           ))}
         </ul>
         <div className="arrow-container">
