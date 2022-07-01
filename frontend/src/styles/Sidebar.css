@@ -43,7 +43,14 @@ div.filter-check-container:nth-child(6) > div:nth-child(2) > label:nth-child(1),
 div.filter-check-container:nth-child(7)
   > div:nth-child(2)
   > label:nth-child(1) {
-  display: grid;
+  display: flex;
+  justify-content: start;
+}
+
+div.filter-check-container:nth-child(8)
+  > div:nth-child(2)
+  > label:nth-child(1) {
+  margin: 0;
 }
 
 div.filter-check-container:nth-child(6)

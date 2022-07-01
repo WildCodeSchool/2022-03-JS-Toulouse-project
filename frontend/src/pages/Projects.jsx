@@ -103,7 +103,7 @@ function Projects() {
         <div className="projects-center-container">
           {projects.map((el) => (
             // eslint-disable-next-line react/jsx-props-no-spreading
-            <ProjectCard {...el} />
+            <ProjectCard key={el.title} {...el} />
           ))}
         </div>
       </section>

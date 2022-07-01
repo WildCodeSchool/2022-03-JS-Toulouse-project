@@ -8,14 +8,16 @@ import NewspaperIcon from "@mui/icons-material/Newspaper";
 import { Person } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import { SpeedDial, SpeedDialAction } from "@mui/material";
+import PsychologyIcon from "@mui/icons-material/Psychology";
 
 function SpeedDialComp() {
   const navigate = useNavigate();
   const actions = [
     { icon: <CottageIcon />, name: "DASHBOARD", navigate: "/" },
     { icon: <GroupIcon />, name: "COLLABORATORS", navigate: "/collaborators" },
-    { icon: <LightbulbIcon />, name: "PROJECTS", navigate: "/projects" },
-    { icon: <WorkIcon />, name: "CUSTOMERS", navigate: "/" },
+    { icon: <LightbulbIcon />, name: "IDEAS", navigate: "/ideas" },
+    { icon: <PsychologyIcon />, name: "PROJECTS", navigate: "/projects" },
+    { icon: <WorkIcon />, name: "CUSTOMERS", navigate: "/customers" },
     {
       icon: <NewspaperIcon />,
       name: "PRESS REVIEW",
