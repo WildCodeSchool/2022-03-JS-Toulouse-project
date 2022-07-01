@@ -17,7 +17,6 @@ function SpeedDialComp() {
     { icon: <GroupIcon />, name: "COLLABORATORS", navigate: "/collaborators" },
     { icon: <LightbulbIcon />, name: "IDEAS", navigate: "/ideas" },
     { icon: <PsychologyIcon />, name: "PROJECTS", navigate: "/projects" },
-
     { icon: <WorkIcon />, name: "CUSTOMERS", navigate: "/customers" },
     {
       icon: <NewspaperIcon />,
